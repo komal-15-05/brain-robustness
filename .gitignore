@@ -1,0 +1,98 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Model weights, checkpoints and serializations
+*.pt
+*.pth
+*.pwf
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+checkpoints/
+weights/
+
+# Large Datasets & Raw Downloads (Preserve READMEs)
+data/things_eeg2/*
+!data/things_eeg2/README.md
+
+# Large raw data binary formats
+*.h5
+*.hdf5
+*.mat
+*.npy
+*.npz
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# EEG / Neuroimaging data formats
+*.bdf
+*.edf
+*.fif
+*.eeg
+*.vhdr
+*.vmrk
+
+# Environment variables, credentials, and tokens
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+token.txt
+hf_token*
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and scratch directories
+*.log
+logs/
+scratch/
+wandb/
